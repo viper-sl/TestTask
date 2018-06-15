@@ -1,0 +1,38 @@
+{
+  "time" : {
+    "start" : 1529092630974,
+    "stop" : 1529092694282,
+    "duration" : 63308
+  },
+  "testSuites" : [ {
+    "uid" : "cf6285a5f0802218",
+    "name" : "yatest.TabTest",
+    "title" : "Тестовый сценарий 'Планшеты'",
+    "time" : {
+      "start" : 1529092630974,
+      "stop" : 1529092694282,
+      "duration" : 63308
+    },
+    "statistic" : {
+      "total" : 1,
+      "passed" : 1,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "2401a51125361122",
+      "name" : "tabsite",
+      "title" : "Tabsite",
+      "time" : {
+        "start" : 1529092630974,
+        "stop" : 1529092694282,
+        "duration" : 63308
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  } ]
+}

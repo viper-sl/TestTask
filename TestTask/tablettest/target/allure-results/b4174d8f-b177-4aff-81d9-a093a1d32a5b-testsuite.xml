@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1529092630943" stop="1529092694295" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>yatest.TabTest</name>
+    <title>Тестовый сценарий 'Планшеты'</title>
+    <test-cases>
+        <test-case start="1529092630974" stop="1529092694282" status="passed">
+            <name>tabsite</name>
+            <steps>
+                <step start="1529092643732" stop="1529092648228" status="passed">
+                    <name>homePage[https://yandex.ru/, Маркет]</name>
+                    <title>Открытие страницы Яндекс</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529092648230" stop="1529092656575" status="passed">
+                    <name>followLink[Маркет, Компьютеры]</name>
+                    <title>Переход по кнопке Маркет, проверка наличия: Компьютеры</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529092656577" stop="1529092663136" status="passed">
+                    <name>followLink[Компьютеры, Планшеты]</name>
+                    <title>Переход по кнопке Компьютеры, проверка наличия: Планшеты</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529092663138" stop="1529092671437" status="passed">
+                    <name>followLinkTablet</name>
+                    <title>Переход по кнопке Планшеты</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529092671441" stop="1529092676162" status="passed">
+                    <name>followLink[Перейти ко всем фильтрам, Планшеты]</name>
+                    <title>Переход по кнопке Перейти ко всем фильтрам, проверка наличия: Планшеты</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529092676164" stop="1529092676309" status="passed">
+                    <name>fillText[glf-pricefrom-var, 25000]</name>
+                    <title>Ввод текста: 25000</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529092676311" stop="1529092676432" status="passed">
+                    <name>fillText[glf-priceto-var, 30000]</name>
+                    <title>Ввод текста: 30000</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529092676790" stop="1529092677747" status="passed">
+                    <name>checkBoxCompany[Acer]</name>
+                    <title>Выбор производителя Acer</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529092677749" stop="1529092678402" status="passed">
+                    <name>checkBoxCompany[Lenovo]</name>
+                    <title>Выбор производителя Lenovo</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529092678405" stop="1529092683516" status="passed">
+                    <name>followLink[Показать подходящие, Планшеты]</name>
+                    <title>Переход по кнопке Показать подходящие, проверка наличия: Планшеты</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529092683521" stop="1529092683559" status="passed">
+                    <name>resultQuantity[48]</name>
+                    <title>Проверка количества результатов поиска (48)</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1529092683561" stop="1529092692575" status="passed">
+                    <name>nameEqual</name>
+                    <title>Проверка соответствия названия 3 товара полученному результату</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1529092683630" stop="1529092684223" status="passed">
+                            <name>fillText[header-search, Планшет Lenovo Tab 4 TB-7504X 2Gb 16Gb]</name>
+                            <title>Ввод текста: Планшет Lenovo Tab 4 TB-7504X 2Gb 16Gb</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="host" value="DELL_W10"/>
+                <label name="thread" value="17928@DELL_W10.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="JUnit"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

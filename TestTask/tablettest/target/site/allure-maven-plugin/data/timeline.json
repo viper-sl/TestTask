@@ -1,0 +1,20 @@
+{
+  "hosts" : [ {
+    "title" : "DELL_W10",
+    "threads" : [ {
+      "title" : "17928@DELL_W10.main(1)",
+      "testCases" : [ {
+        "uid" : "2401a51125361122",
+        "name" : "tabsite",
+        "title" : "Tabsite",
+        "time" : {
+          "start" : 1529092630974,
+          "stop" : 1529092694282,
+          "duration" : 63308
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    } ]
+  } ]
+}
