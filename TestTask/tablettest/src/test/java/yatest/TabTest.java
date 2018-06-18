@@ -1,19 +1,21 @@
 package yatest;
 
+import io.github.bonigarcia.wdm.FirefoxDriverManager;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-import static org.junit.Assert.*;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import io.github.bonigarcia.wdm.FirefoxDriverManager;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import ru.yandex.qatools.allure.annotations.Step;
 import ru.yandex.qatools.allure.annotations.Title;
+
 import java.util.concurrent.TimeUnit;
+
+import static org.junit.Assert.*;
 
 @Title("Тестовый сценарий 'Планшеты'")
 public class TabTest {
@@ -31,7 +33,6 @@ public class TabTest {
         followLink("Маркет","Компьютеры");
         followLink("Компьютеры","Планшеты");
         followLinkTablet();
-        //followLink("Планшеты","Перейти ко всем фильтрам");
         followLink("Перейти ко всем фильтрам","Планшеты");
         fillText("glf-pricefrom-var","25000");
         fillText("glf-priceto-var","30000");
