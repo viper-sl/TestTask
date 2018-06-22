@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6cff8460-b061-4521-8c0c-0bb2226ed599" name="Default" comment="" />
+    <list default="true" id="6cff8460-b061-4521-8c0c-0bb2226ed599" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/yatest/FilterPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/yatest/OpenPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/yatest/TabTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/yatest/TabTest.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,24 +19,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="TabTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/yatest/TabTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="38" lean-forward="true" selection-start-column="38" selection-end-column="38" />
+            <state relative-caret-position="187">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TabTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/yatest/TabTest.java">
+      <file leaf-file-name="FilterPage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/yatest/FilterPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
+            <state relative-caret-position="85">
+              <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OpenPage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/yatest/OpenPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
               <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2799#2800#0" expanded="true" />
-                <element signature="e#2828#2829#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -45,10 +58,16 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/yatest/Filter.java" />
+        <option value="$PROJECT_DIR$/src/test/java/yatest/OpenPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/yatest/FilterPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/yatest/TabTest.java" />
       </list>
     </option>
@@ -71,8 +90,12 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1382" />
     <option name="height" value="784" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -80,7 +103,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -118,6 +140,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -127,7 +150,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SberTechTask2-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -148,7 +171,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TabTest">
+  <component name="RunManager" selected="JUnit.All in tablettest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -238,9 +261,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in tablettest" />
         <item itemvalue="JUnit.TabTest" />
         <item itemvalue="JavaScript Debug.project-reports.html" />
-        <item itemvalue="JUnit.All in tablettest" />
       </list>
     </recent_temporary>
   </component>
@@ -259,16 +282,11 @@
       <workItem from="1529074456587" duration="5309000" />
       <workItem from="1529079938663" duration="3823000" />
       <workItem from="1529084391209" duration="6292000" />
+      <workItem from="1529681098212" duration="6779000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TabTest - 2018.06.15 at 20h 11m 54s.xml">
-      <configuration name="TabTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TabTest - 2018.06.15 at 20h 15m 53s.xml">
-      <configuration name="TabTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TabTest - 2018.06.15 at 20h 31m 26s.xml">
       <configuration name="TabTest" configurationId="JUnit" />
     </history-entry>
@@ -293,9 +311,15 @@
     <history-entry file="TabTest - 2018.06.15 at 22h 24m 36s.xml">
       <configuration name="TabTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="All_in_tablettest - 2018.06.22 at 20h 11m 37s.xml">
+      <configuration name="All in tablettest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_tablettest - 2018.06.22 at 20h 15m 45s.xml">
+      <configuration name="All in tablettest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42558000" />
+    <option name="totallyTimeSpent" value="49337000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -306,13 +330,11 @@
       <window_info anchor="bottom" id="Messages" order="7" weight="0.32843137" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
-      <window_info anchor="bottom" id="Java Enterprise" order="8" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50075644" side_tool="true" weight="0.29248366" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="right" id="CDI" order="4" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.2875817" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
@@ -329,7 +351,9 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" id="CDI" order="4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Java Enterprise" order="8" />
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
@@ -342,6 +366,20 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="38" lean-forward="true" selection-start-column="38" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/yatest/TabTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="918">
           <caret line="54" column="10" selection-start-line="54" selection-start-column="10" selection-end-line="54" selection-end-column="10" />
         </state>
@@ -351,11 +389,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1020">
           <caret line="84" selection-start-line="84" selection-end-line="84" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2799#2800#0" expanded="true" />
-            <element signature="e#2828#2829#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -370,11 +403,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2799#2800#0" expanded="true" />
-            <element signature="e#2828#2829#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -389,11 +417,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="918">
           <caret line="54" column="105" selection-start-line="54" selection-start-column="105" selection-end-line="54" selection-end-column="105" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2799#2800#0" expanded="true" />
-            <element signature="e#2828#2829#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -408,11 +431,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="40" selection-start-line="40" selection-end-line="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2799#2800#0" expanded="true" />
-            <element signature="e#2828#2829#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -432,22 +450,34 @@
     <entry file="file://$MAVEN_REPOSITORY$/org/aspectj/aspectjweaver/1.9.1/aspectjweaver-1.9.1.pom">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/yatest/TabTest.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
+        <state relative-caret-position="272">
+          <caret line="16" column="54" lean-forward="true" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/yatest/OpenPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
           <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2799#2800#0" expanded="true" />
-            <element signature="e#2828#2829#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/yatest/FilterPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="38" lean-forward="true" selection-start-column="38" selection-end-column="38" />
+        <state relative-caret-position="85">
+          <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/yatest/TabTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
