@@ -36,7 +36,7 @@ public class TabTest {
         driver.quit();
     }
 
-    @Step("Выбор категории {0}")
+    @Step("Выбор категории")
     private void selectGroup(){
         OpenPage openPage = new OpenPage(driver);
         openPage.homePage("https://yandex.ru/", "Маркет");

@@ -10,7 +10,7 @@
       "broken" : 0
     },
     "stories" : [ {
-      "uid" : "e176710a2e751f19",
+      "uid" : "eb22ed12a5c8f0c5",
       "title" : "Without story",
       "statistic" : {
         "total" : 1,
@@ -21,13 +21,13 @@
         "broken" : 0
       },
       "testCases" : [ {
-        "uid" : "2401a51125361122",
+        "uid" : "c86381cc38c43a30",
         "name" : "tabsite",
         "title" : "Tabsite",
         "time" : {
-          "start" : 1529092630974,
-          "stop" : 1529092694282,
-          "duration" : 63308
+          "start" : 1529689035377,
+          "stop" : 1529689122143,
+          "duration" : 86766
         },
         "severity" : "NORMAL",
         "status" : "PASSED"

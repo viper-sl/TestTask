@@ -11,9 +11,9 @@
         "broken" : 0
       },
       "time" : {
-        "start" : 1529092630974,
-        "stop" : 1529092694282,
-        "duration" : 63308
+        "start" : 1529689035377,
+        "stop" : 1529689122143,
+        "duration" : 86766
       }
     },
     "defects" : {
@@ -23,7 +23,7 @@
     "xunit" : {
       "totalCount" : 1,
       "items" : [ {
-        "uid" : "cf6285a5f0802218",
+        "uid" : "1cfa8f1e59f5ebad",
         "title" : "Тестовый сценарий 'Планшеты'",
         "statistic" : {
           "total" : 1,
