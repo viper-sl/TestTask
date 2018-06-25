@@ -1,0 +1,302 @@
+{
+  "uid" : "6af4e22386b25d11",
+  "name" : "tabletsite",
+  "title" : "Тестовый сценарий 'Планшеты'",
+  "time" : {
+    "start" : 1529952104944,
+    "stop" : 1529952203152,
+    "duration" : 98208
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 17
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "1655d5ba4d3284a5",
+    "name" : "yatest.MarketTest",
+    "title" : "Тестовые сценарии"
+  },
+  "steps" : [ {
+    "name" : "selectGroup[Планшеты]",
+    "title" : "Выбор категории",
+    "time" : {
+      "start" : 1529952117869,
+      "stop" : 1529952181146,
+      "duration" : 63277
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 5
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "homePage[https://yandex.ru/, Маркет]",
+      "title" : "Открытие страницы https://yandex.ru/",
+      "time" : {
+        "start" : 1529952117901,
+        "stop" : 1529952143634,
+        "duration" : 25733
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "followLink[Маркет, Компьютеры]",
+      "title" : "Переход по кнопке Маркет, проверка наличия: Компьютеры",
+      "time" : {
+        "start" : 1529952143636,
+        "stop" : 1529952158687,
+        "duration" : 15051
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "followLink[Компьютеры, Планшеты]",
+      "title" : "Переход по кнопке Компьютеры, проверка наличия: Планшеты",
+      "time" : {
+        "start" : 1529952158688,
+        "stop" : 1529952167752,
+        "duration" : 9064
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "followLinkTablet",
+      "title" : "Переход по кнопке Планшеты",
+      "time" : {
+        "start" : 1529952167754,
+        "stop" : 1529952174934,
+        "duration" : 7180
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "followLink[Перейти ко всем фильтрам, Планшеты]",
+      "title" : "Переход по кнопке Перейти ко всем фильтрам, проверка наличия: Планшеты",
+      "time" : {
+        "start" : 1529952174936,
+        "stop" : 1529952181146,
+        "duration" : 6210
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "setFilter[20000, 25000, [ASUS, Lenovo]]",
+    "title" : "Применение фильтра",
+    "time" : {
+      "start" : 1529952181147,
+      "stop" : 1529952190205,
+      "duration" : 9058
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 7
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "setPriceFrom[20000]",
+      "title" : "Установка цены от 20000",
+      "time" : {
+        "start" : 1529952181186,
+        "stop" : 1529952181443,
+        "duration" : 257
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "setPriceTo[25000]",
+      "title" : "Установка цены до 25000",
+      "time" : {
+        "start" : 1529952181445,
+        "stop" : 1529952181657,
+        "duration" : 212
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "allCompanies",
+      "title" : "Отображение всех производителей",
+      "time" : {
+        "start" : 1529952181659,
+        "stop" : 1529952181982,
+        "duration" : 323
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "checkBoxCompany[ASUS]",
+      "title" : "Выбор производителя ASUS",
+      "time" : {
+        "start" : 1529952181983,
+        "stop" : 1529952183104,
+        "duration" : 1121
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "checkBoxCompany[Lenovo]",
+      "title" : "Выбор производителя Lenovo",
+      "time" : {
+        "start" : 1529952183106,
+        "stop" : 1529952183747,
+        "duration" : 641
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "showFilterResult",
+      "title" : "Отображение результатов фильтра",
+      "time" : {
+        "start" : 1529952183748,
+        "stop" : 1529952190205,
+        "duration" : 6457
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 1
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ {
+        "name" : "followLink[Показать подходящие, Яндекс.Маркет]",
+        "title" : "Переход по кнопке Показать подходящие, проверка наличия: Яндекс.Маркет",
+        "time" : {
+          "start" : 1529952183749,
+          "stop" : 1529952190205,
+          "duration" : 6456
+        },
+        "summary" : {
+          "attachments" : 0,
+          "steps" : 0
+        },
+        "status" : "PASSED",
+        "attachments" : [ ],
+        "steps" : [ ]
+      } ]
+    } ]
+  }, {
+    "name" : "resultQuantity[48]",
+    "title" : "Проверка количества результатов поиска (48)",
+    "time" : {
+      "start" : 1529952190210,
+      "stop" : 1529952190274,
+      "duration" : 64
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "nameEqual",
+    "title" : "Проверка соответствия названия 1 товара полученному результату",
+    "time" : {
+      "start" : 1529952190275,
+      "stop" : 1529952198691,
+      "duration" : 8416
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "offers",
+    "title" : "Количество доступных торговых площадок в разделе «Предложения Магазинов»",
+    "time" : {
+      "start" : 1529952198692,
+      "stop" : 1529952198743,
+      "duration" : 51
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "JUnit"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "host",
+    "value" : "DELL_W10"
+  }, {
+    "name" : "thread",
+    "value" : "8752@DELL_W10.main(1)"
+  }, {
+    "name" : "suite-name",
+    "value" : "yatest.MarketTest"
+  }, {
+    "name" : "suite-title",
+    "value" : "Тестовые сценарии"
+  } ],
+  "parameters" : [ ]
+}

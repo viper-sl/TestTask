@@ -1,0 +1,48 @@
+{
+  "features" : [ {
+    "title" : "Without feature",
+    "statistic" : {
+      "total" : 2,
+      "passed" : 2,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "stories" : [ {
+      "uid" : "d993920724c4661a",
+      "title" : "Without story",
+      "statistic" : {
+        "total" : 2,
+        "passed" : 2,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "6af4e22386b25d11",
+        "name" : "tabletsite",
+        "title" : "Тестовый сценарий 'Планшеты'",
+        "time" : {
+          "start" : 1529952104944,
+          "stop" : 1529952203152,
+          "duration" : 98208
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "3c9ca383d9bb9d9e",
+        "name" : "laptopsite",
+        "title" : "Тестовый сценарий 'Ноутбуки'",
+        "time" : {
+          "start" : 1529952203158,
+          "stop" : 1529952317021,
+          "duration" : 113863
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    } ]
+  } ]
+}
