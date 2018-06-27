@@ -1,4 +1,7 @@
-C:\Users\viper-sl\Documents\Git\TestTask\tablettest\src\test\java\yatest\MarketTest.java
-C:\Users\viper-sl\Documents\Git\TestTask\tablettest\src\test\java\yatest\OpenPage.java
-C:\Users\viper-sl\Documents\Git\TestTask\tablettest\src\test\java\yatest\BrowserStart.java
-C:\Users\viper-sl\Documents\Git\TestTask\tablettest\src\test\java\yatest\FilterPage.java
+E:\Git\TestTask\markettest\src\test\java\yatest\Page\OpenPage.java
+E:\Git\TestTask\markettest\src\test\java\yatest\Page\FilterPage.java
+E:\Git\TestTask\markettest\src\test\java\yatest\Actions\BrowserStart.java
+E:\Git\TestTask\markettest\src\test\java\yatest\CoreTest.java
+E:\Git\TestTask\markettest\src\test\java\yatest\Tests\LaptopTest.java
+E:\Git\TestTask\markettest\src\test\java\yatest\Actions\Verification.java
+E:\Git\TestTask\markettest\src\test\java\yatest\Tests\TabletTest.java

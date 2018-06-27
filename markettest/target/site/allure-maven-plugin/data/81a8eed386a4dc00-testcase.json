@@ -1,32 +1,32 @@
 {
-  "uid" : "3c9ca383d9bb9d9e",
+  "uid" : "81a8eed386a4dc00",
   "name" : "laptopsite",
-  "title" : "Тестовый сценарий 'Ноутбуки'",
+  "title" : "Laptopsite",
   "time" : {
-    "start" : 1529952203158,
-    "stop" : 1529952317021,
-    "duration" : 113863
+    "start" : 1530088761318,
+    "stop" : 1530088803607,
+    "duration" : 42289
   },
   "summary" : {
     "attachments" : 0,
-    "steps" : 17
+    "steps" : 18
   },
   "failure" : null,
   "description" : null,
   "severity" : "NORMAL",
   "status" : "PASSED",
   "suite" : {
-    "uid" : "1655d5ba4d3284a5",
-    "name" : "yatest.MarketTest",
-    "title" : "Тестовые сценарии"
+    "uid" : "4eb95d14541e4551",
+    "name" : "yatest.Tests.LaptopTest",
+    "title" : "Тестовый сценарий 'Ноутбуки'"
   },
   "steps" : [ {
     "name" : "selectGroup[Ноутбуки]",
     "title" : "Выбор категории",
     "time" : {
-      "start" : 1529952208282,
-      "stop" : 1529952264798,
-      "duration" : 56516
+      "start" : 1530088767083,
+      "stop" : 1530088785320,
+      "duration" : 18237
     },
     "summary" : {
       "attachments" : 0,
@@ -38,9 +38,9 @@
       "name" : "homePage[https://yandex.ru/, Маркет]",
       "title" : "Открытие страницы https://yandex.ru/",
       "time" : {
-        "start" : 1529952208282,
-        "stop" : 1529952234750,
-        "duration" : 26468
+        "start" : 1530088767097,
+        "stop" : 1530088769037,
+        "duration" : 1940
       },
       "summary" : {
         "attachments" : 0,
@@ -53,9 +53,9 @@
       "name" : "followLink[Маркет, Компьютеры]",
       "title" : "Переход по кнопке Маркет, проверка наличия: Компьютеры",
       "time" : {
-        "start" : 1529952234751,
-        "stop" : 1529952246252,
-        "duration" : 11501
+        "start" : 1530088769038,
+        "stop" : 1530088775096,
+        "duration" : 6058
       },
       "summary" : {
         "attachments" : 0,
@@ -68,9 +68,9 @@
       "name" : "followLink[Компьютеры, Ноутбуки]",
       "title" : "Переход по кнопке Компьютеры, проверка наличия: Ноутбуки",
       "time" : {
-        "start" : 1529952246253,
-        "stop" : 1529952252311,
-        "duration" : 6058
+        "start" : 1530088775097,
+        "stop" : 1530088777715,
+        "duration" : 2618
       },
       "summary" : {
         "attachments" : 0,
@@ -83,9 +83,9 @@
       "name" : "followLink[Ноутбуки, Перейти ко всем фильтрам]",
       "title" : "Переход по кнопке Ноутбуки, проверка наличия: Перейти ко всем фильтрам",
       "time" : {
-        "start" : 1529952252312,
-        "stop" : 1529952259514,
-        "duration" : 7202
+        "start" : 1530088777718,
+        "stop" : 1530088781722,
+        "duration" : 4004
       },
       "summary" : {
         "attachments" : 0,
@@ -98,9 +98,9 @@
       "name" : "followLink[Перейти ко всем фильтрам, Ноутбуки]",
       "title" : "Переход по кнопке Перейти ко всем фильтрам, проверка наличия: Ноутбуки",
       "time" : {
-        "start" : 1529952259515,
-        "stop" : 1529952264798,
-        "duration" : 5283
+        "start" : 1530088781723,
+        "stop" : 1530088785320,
+        "duration" : 3597
       },
       "summary" : {
         "attachments" : 0,
@@ -114,9 +114,9 @@
     "name" : "setFilter[, 30000, [HP, Lenovo]]",
     "title" : "Применение фильтра",
     "time" : {
-      "start" : 1529952264799,
-      "stop" : 1529952308193,
-      "duration" : 43394
+      "start" : 1530088785320,
+      "stop" : 1530088797042,
+      "duration" : 11722
     },
     "summary" : {
       "attachments" : 0,
@@ -128,9 +128,9 @@
       "name" : "setPriceFrom[]",
       "title" : "Установка цены от ",
       "time" : {
-        "start" : 1529952264804,
-        "stop" : 1529952264946,
-        "duration" : 142
+        "start" : 1530088785329,
+        "stop" : 1530088785417,
+        "duration" : 88
       },
       "summary" : {
         "attachments" : 0,
@@ -143,9 +143,9 @@
       "name" : "setPriceTo[30000]",
       "title" : "Установка цены до 30000",
       "time" : {
-        "start" : 1529952264947,
-        "stop" : 1529952265301,
-        "duration" : 354
+        "start" : 1530088785418,
+        "stop" : 1530088785611,
+        "duration" : 193
       },
       "summary" : {
         "attachments" : 0,
@@ -158,9 +158,9 @@
       "name" : "allCompanies",
       "title" : "Отображение всех производителей",
       "time" : {
-        "start" : 1529952265302,
-        "stop" : 1529952265504,
-        "duration" : 202
+        "start" : 1530088785612,
+        "stop" : 1530088785715,
+        "duration" : 103
       },
       "summary" : {
         "attachments" : 0,
@@ -173,9 +173,9 @@
       "name" : "checkBoxCompany[HP]",
       "title" : "Выбор производителя HP",
       "time" : {
-        "start" : 1529952265505,
-        "stop" : 1529952267148,
-        "duration" : 1643
+        "start" : 1530088785716,
+        "stop" : 1530088788517,
+        "duration" : 2801
       },
       "summary" : {
         "attachments" : 0,
@@ -188,9 +188,9 @@
       "name" : "checkBoxCompany[Lenovo]",
       "title" : "Выбор производителя Lenovo",
       "time" : {
-        "start" : 1529952267149,
-        "stop" : 1529952267811,
-        "duration" : 662
+        "start" : 1530088788518,
+        "stop" : 1530088789048,
+        "duration" : 530
       },
       "summary" : {
         "attachments" : 0,
@@ -203,9 +203,9 @@
       "name" : "showFilterResult",
       "title" : "Отображение результатов фильтра",
       "time" : {
-        "start" : 1529952267812,
-        "stop" : 1529952308193,
-        "duration" : 40381
+        "start" : 1530088789049,
+        "stop" : 1530088797042,
+        "duration" : 7993
       },
       "summary" : {
         "attachments" : 0,
@@ -217,9 +217,9 @@
         "name" : "followLink[Показать подходящие, Яндекс.Маркет]",
         "title" : "Переход по кнопке Показать подходящие, проверка наличия: Яндекс.Маркет",
         "time" : {
-          "start" : 1529952267813,
-          "stop" : 1529952308193,
-          "duration" : 40380
+          "start" : 1530088789049,
+          "stop" : 1530088797042,
+          "duration" : 7993
         },
         "summary" : {
           "attachments" : 0,
@@ -231,50 +231,65 @@
       } ]
     } ]
   }, {
-    "name" : "resultQuantity[48]",
-    "title" : "Проверка количества результатов поиска (48)",
+    "name" : "verify",
+    "title" : "Проверки",
     "time" : {
-      "start" : 1529952308194,
-      "stop" : 1529952308339,
-      "duration" : 145
+      "start" : 1530088797043,
+      "stop" : 1530088802912,
+      "duration" : 5869
     },
     "summary" : {
       "attachments" : 0,
-      "steps" : 0
+      "steps" : 3
     },
     "status" : "PASSED",
     "attachments" : [ ],
-    "steps" : [ ]
-  }, {
-    "name" : "nameEqual",
-    "title" : "Проверка соответствия названия 1 товара полученному результату",
-    "time" : {
-      "start" : 1529952308340,
-      "stop" : 1529952315892,
-      "duration" : 7552
-    },
-    "summary" : {
-      "attachments" : 0,
-      "steps" : 0
-    },
-    "status" : "PASSED",
-    "attachments" : [ ],
-    "steps" : [ ]
-  }, {
-    "name" : "offers",
-    "title" : "Количество доступных торговых площадок в разделе «Предложения Магазинов»",
-    "time" : {
-      "start" : 1529952315893,
-      "stop" : 1529952315957,
-      "duration" : 64
-    },
-    "summary" : {
-      "attachments" : 0,
-      "steps" : 0
-    },
-    "status" : "PASSED",
-    "attachments" : [ ],
-    "steps" : [ ]
+    "steps" : [ {
+      "name" : "resultQuantity[48]",
+      "title" : "Проверка количества результатов поиска (48)",
+      "time" : {
+        "start" : 1530088797049,
+        "stop" : 1530088797092,
+        "duration" : 43
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "nameEqual",
+      "title" : "Проверка соответствия названия 1 товара полученному результату",
+      "time" : {
+        "start" : 1530088797093,
+        "stop" : 1530088802889,
+        "duration" : 5796
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "offers",
+      "title" : "Количество доступных торговых площадок в разделе «Предложения Магазинов»",
+      "time" : {
+        "start" : 1530088802890,
+        "stop" : 1530088802912,
+        "duration" : 22
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
   } ],
   "attachments" : [ ],
   "issues" : [ ],
@@ -286,17 +301,17 @@
     "name" : "language",
     "value" : "JAVA"
   }, {
-    "name" : "host",
-    "value" : "DELL_W10"
-  }, {
-    "name" : "thread",
-    "value" : "8752@DELL_W10.main(1)"
-  }, {
     "name" : "suite-name",
-    "value" : "yatest.MarketTest"
+    "value" : "yatest.Tests.LaptopTest"
   }, {
     "name" : "suite-title",
-    "value" : "Тестовые сценарии"
+    "value" : "Тестовый сценарий 'Ноутбуки'"
+  }, {
+    "name" : "thread",
+    "value" : "936@DESKTOP-432.main(1)"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-432"
   } ],
   "parameters" : [ ]
 }

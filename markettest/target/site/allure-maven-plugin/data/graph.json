@@ -1,23 +1,23 @@
 {
   "testCases" : [ {
-    "uid" : "6af4e22386b25d11",
-    "name" : "tabletsite",
-    "title" : "Тестовый сценарий 'Планшеты'",
+    "uid" : "81a8eed386a4dc00",
+    "name" : "laptopsite",
+    "title" : "Laptopsite",
     "time" : {
-      "start" : 1529952104944,
-      "stop" : 1529952203152,
-      "duration" : 98208
+      "start" : 1530088761318,
+      "stop" : 1530088803607,
+      "duration" : 42289
     },
     "severity" : "NORMAL",
     "status" : "PASSED"
   }, {
-    "uid" : "3c9ca383d9bb9d9e",
-    "name" : "laptopsite",
-    "title" : "Тестовый сценарий 'Ноутбуки'",
+    "uid" : "ca1ece637ae45f0e",
+    "name" : "tabletsite",
+    "title" : "Tabletsite",
     "time" : {
-      "start" : 1529952203158,
-      "stop" : 1529952317021,
-      "duration" : 113863
+      "start" : 1530088803622,
+      "stop" : 1530088890881,
+      "duration" : 87259
     },
     "severity" : "NORMAL",
     "status" : "PASSED"

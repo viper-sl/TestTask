@@ -11,9 +11,9 @@
         "broken" : 0
       },
       "time" : {
-        "start" : 1529952104944,
-        "stop" : 1529952317021,
-        "duration" : 212077
+        "start" : 1530088761318,
+        "stop" : 1530088890881,
+        "duration" : 129563
       }
     },
     "defects" : {
@@ -21,13 +21,24 @@
       "items" : [ ]
     },
     "xunit" : {
-      "totalCount" : 1,
+      "totalCount" : 2,
       "items" : [ {
-        "uid" : "1655d5ba4d3284a5",
-        "title" : "Тестовые сценарии",
+        "uid" : "4eb95d14541e4551",
+        "title" : "Тестовый сценарий 'Ноутбуки'",
         "statistic" : {
-          "total" : 2,
-          "passed" : 2,
+          "total" : 1,
+          "passed" : 1,
+          "pending" : 0,
+          "canceled" : 0,
+          "failed" : 0,
+          "broken" : 0
+        }
+      }, {
+        "uid" : "90907ff6fbb668b7",
+        "title" : "Тестовый сценарий 'Планшеты'",
+        "statistic" : {
+          "total" : 1,
+          "passed" : 1,
           "pending" : 0,
           "canceled" : 0,
           "failed" : 0,

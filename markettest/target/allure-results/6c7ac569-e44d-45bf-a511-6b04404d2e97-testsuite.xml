@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1530088761290" stop="1530088891066" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>yatest.Tests.LaptopTest</name>
+    <title>Тестовый сценарий 'Ноутбуки'</title>
+    <test-cases>
+        <test-case start="1530088761318" stop="1530088803607" status="passed">
+            <name>laptopsite</name>
+            <steps>
+                <step start="1530088767083" stop="1530088785320" status="passed">
+                    <name>selectGroup[Ноутбуки]</name>
+                    <title>Выбор категории</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1530088767097" stop="1530088769037" status="passed">
+                            <name>homePage[https://yandex.ru/, Маркет]</name>
+                            <title>Открытие страницы https://yandex.ru/</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1530088769038" stop="1530088775096" status="passed">
+                            <name>followLink[Маркет, Компьютеры]</name>
+                            <title>Переход по кнопке Маркет, проверка наличия: Компьютеры</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1530088775097" stop="1530088777715" status="passed">
+                            <name>followLink[Компьютеры, Ноутбуки]</name>
+                            <title>Переход по кнопке Компьютеры, проверка наличия: Ноутбуки</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1530088777718" stop="1530088781722" status="passed">
+                            <name>followLink[Ноутбуки, Перейти ко всем фильтрам]</name>
+                            <title>Переход по кнопке Ноутбуки, проверка наличия: Перейти ко всем фильтрам</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1530088781723" stop="1530088785320" status="passed">
+                            <name>followLink[Перейти ко всем фильтрам, Ноутбуки]</name>
+                            <title>Переход по кнопке Перейти ко всем фильтрам, проверка наличия: Ноутбуки</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1530088785320" stop="1530088797042" status="passed">
+                    <name>setFilter[, 30000, [HP, Lenovo]]</name>
+                    <title>Применение фильтра</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1530088785329" stop="1530088785417" status="passed">
+                            <name>setPriceFrom[]</name>
+                            <title>Установка цены от </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1530088785418" stop="1530088785611" status="passed">
+                            <name>setPriceTo[30000]</name>
+                            <title>Установка цены до 30000</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1530088785612" stop="1530088785715" status="passed">
+                            <name>allCompanies</name>
+                            <title>Отображение всех производителей</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1530088785716" stop="1530088788517" status="passed">
+                            <name>checkBoxCompany[HP]</name>
+                            <title>Выбор производителя HP</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1530088788518" stop="1530088789048" status="passed">
+                            <name>checkBoxCompany[Lenovo]</name>
+                            <title>Выбор производителя Lenovo</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1530088789049" stop="1530088797042" status="passed">
+                            <name>showFilterResult</name>
+                            <title>Отображение результатов фильтра</title>
+                            <attachments/>
+                            <steps>
+                                <step start="1530088789049" stop="1530088797042" status="passed">
+                                    <name>followLink[Показать подходящие, Яндекс.Маркет]</name>
+                                    <title>Переход по кнопке Показать подходящие, проверка наличия: Яндекс.Маркет</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start="1530088797043" stop="1530088802912" status="passed">
+                    <name>verify</name>
+                    <title>Проверки</title>
+                    <attachments/>
+                    <steps>
+                        <step start="1530088797049" stop="1530088797092" status="passed">
+                            <name>resultQuantity[48]</name>
+                            <title>Проверка количества результатов поиска (48)</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1530088797093" stop="1530088802889" status="passed">
+                            <name>nameEqual</name>
+                            <title>Проверка соответствия названия 1 товара полученному результату</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start="1530088802890" stop="1530088802912" status="passed">
+                            <name>offers</name>
+                            <title>Количество доступных торговых площадок в разделе «Предложения Магазинов»</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="host" value="DESKTOP-432"/>
+                <label name="thread" value="936@DESKTOP-432.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="JUnit"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

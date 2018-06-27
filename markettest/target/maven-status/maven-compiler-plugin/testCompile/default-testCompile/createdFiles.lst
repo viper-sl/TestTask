@@ -1,4 +1,7 @@
-yatest\OpenPage.class
-yatest\BrowserStart.class
-yatest\FilterPage.class
-yatest\MarketTest.class
+yatest\Page\OpenPage.class
+yatest\Tests\TabletTest.class
+yatest\CoreTest.class
+yatest\Tests\LaptopTest.class
+yatest\Actions\Verification.class
+yatest\Page\FilterPage.class
+yatest\Actions\BrowserStart.class
