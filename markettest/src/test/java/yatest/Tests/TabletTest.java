@@ -23,5 +23,4 @@ public class TabletTest extends CoreTest {
         setFilter("20000","25000","ASUS","Lenovo");
         verify();
     }
-
 }

@@ -9,7 +9,6 @@ import ru.yandex.qatools.allure.annotations.Step;
 
 public class OpenPage {
     private WebDriver driver;
-
     public OpenPage(WebDriver driver) { this.driver = driver; }
 
     @Step("Переход по кнопке {0}, проверка наличия: {1}")
@@ -29,5 +28,4 @@ public class OpenPage {
         driver.get(page);
         WebElement dynamicElement = (new WebDriverWait(driver, 10)).until(ExpectedConditions.presenceOfElementLocated(By.linkText(linkTextWait)));
     }
-
 }

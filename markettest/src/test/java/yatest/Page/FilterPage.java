@@ -8,7 +8,6 @@ import static org.junit.Assert.assertEquals;
 
 public class FilterPage {
     private WebDriver driver;
-
     private final static By FROM_INPUT = By.id("glf-pricefrom-var");
     private final static By TO_INPUT = By.id("glf-priceto-var");
     private final static By ALL_COMPANIES = By.xpath("/html/body/div[1]/div[4]/div/div[1]/div[1]/div[2]/div[2]/div/div[2]/button");
@@ -51,5 +50,4 @@ public class FilterPage {
         OpenPage openPage = new OpenPage(driver);
         openPage.followLink(SHOW_BUTTON,"Яндекс.Маркет");
     }
-
 }

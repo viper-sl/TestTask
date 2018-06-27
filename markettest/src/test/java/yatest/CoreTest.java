@@ -7,7 +7,6 @@ import yatest.Actions.Verification;
 import yatest.Page.FilterPage;
 import yatest.Page.OpenPage;
 
-
 public class CoreTest {
     public static WebDriver driver;
     @Step("Выбор категории")
@@ -43,5 +42,4 @@ public class CoreTest {
         verify.offers();
 
     }
-
 }

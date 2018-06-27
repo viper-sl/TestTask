@@ -23,7 +23,4 @@ public class LaptopTest extends CoreTest {
         setFilter("","30000","HP","Lenovo");
         verify();
     }
-
-
-
 }
